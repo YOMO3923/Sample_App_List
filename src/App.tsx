@@ -18,7 +18,6 @@ function App() {
   return (
     <>
       {currentPage === 'home' && <Home onSelectApp={handleSelectApp} />}
-      {/* {currentPage === 'night-task' && <NightTaskManager onBack={handleBack} />} */}
       {currentPage === 'night-routine' && <NightRoutineApp onBack={handleBack} />}
     </>
   );
